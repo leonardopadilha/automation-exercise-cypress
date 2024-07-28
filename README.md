@@ -13,7 +13,7 @@ Automação de teste Web utilizando Cypress
 
 ## Descrição do Projeto
 
-Este projeto foi desenvolvido com o objetivo de aprimorar os aprendizados em automação web utilizando cypress. A automação de testes visa garantir a qualidade e a funcionalidade do aplicativo, cobrindo cenários críticos e preparando a base para a expansão futura dos testes.
+Este projeto foi desenvolvido com o objetivo de aprimorar os aprendizados em automação web utilizando cypress. A automação de testes visa garantir a qualidade e a funcionalidade do site, cobrindo cenários críticos e preparando a base para a expansão futura dos testes.
 
 
 ## Instalação
