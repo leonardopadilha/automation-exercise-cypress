@@ -27,6 +27,10 @@ Este projeto foi desenvolvido com o objetivo de aprimorar os aprendizados em aut
 
 <img src="./images/slack.png">
 
+### GitHub Actions
+
+<img src="./images/actions.png">
+
 
 ## Instalação
 
