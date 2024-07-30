@@ -3,6 +3,8 @@ name: Tests e2e
 on: 
   push:
     branches: ['main']
+  pull_request:
+    branches: ['main']
 
   workflow_dispatch:
     inputs:
@@ -30,3 +32,7 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           build: npm run test
+          record: true
+
+        env:
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
