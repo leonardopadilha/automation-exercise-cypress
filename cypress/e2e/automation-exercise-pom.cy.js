@@ -51,7 +51,7 @@ describe('#Automation Exercise', () => {
 
             const newEmail = user.email()
 
-            cy.fixture('newuser').then(function(newUser) {
+            cy.fixture('newUser').then(function(newUser) {
                 const userData = newUser
     
                 menu.clickOn(linkMenu.SIGNUP)
