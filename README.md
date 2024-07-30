@@ -21,7 +21,7 @@ Este projeto foi desenvolvido com o objetivo de aprimorar os aprendizados em aut
 
 ### Cypress cloud
 
-<img src="./images/cypress cloud.png">
+<img src="./images/cypress_cloud.png">
 
 ### Slack
 
