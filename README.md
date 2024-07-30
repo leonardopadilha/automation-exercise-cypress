@@ -50,8 +50,6 @@ Instalar as dependências
 
 ## Execução dos testes via Browserstack
 
-<a href=“https://shorturl.at/qjF0a“>Visualização</a>
-
 ```bash
   npm run brows
 ```
