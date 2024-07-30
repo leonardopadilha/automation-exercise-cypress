@@ -8,12 +8,24 @@ Automação de teste Web utilizando Cypress
 [![Mocha](https://img.shields.io/badge/license-mocha-red.svg)](https://mochajs.org/)
 [![Browserstack](https://img.shields.io/badge/license-browserstack-orange.svg)](https://www.browserstack.com/)
 [![Cypress](https://img.shields.io/badge/license-cypress-blue.svg)](https://www.cypress.io/)
+[![Cypress Cloud](https://img.shields.io/badge/license-cypress-cloud-blue.svg)](https://docs.cypress.io/guides/cloud/introduction)
 [![Cypress Mochawesome Reporter](https://img.shields.io/badge/license-cypress-mochawesome-reporter-gree.svg)](https://www.npmjs.com/package/cypress-mochawesome-reporter)
+[![Slack](https://img.shields.io/badge/license-slack-green.svg)](https://slack.com/intl/pt-br)
 [![JS](https://img.shields.io/badge/license-javascript-blue.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ## Descrição do Projeto
 
 Este projeto foi desenvolvido com o objetivo de aprimorar os aprendizados em automação web utilizando cypress. A automação de testes visa garantir a qualidade e a funcionalidade do site, cobrindo cenários críticos e preparando a base para a expansão futura dos testes.
+
+## Integrações
+
+### Cypress cloud
+
+<img src="./images/cypress cloud.png">
+
+### Slack
+
+<img src="./images/slack.png">
 
 
 ## Instalação
