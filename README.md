@@ -50,7 +50,7 @@ Instalar as dependências
 
 ## Execução dos testes via Browserstack
 
-<a href=“https://automate.browserstack.com/dashboard/v2/builds/78b08ecaaa811a6253cb8abf7aa1bae2cc4fd1de/cypress-tests/tests/207cdf1499f75f93e01596a5edbb8f87f04decacY3lwcmVzcy9lMmUvYXV0b21hdGlvbi1leGVyY2lzZS1wb20uY3kuanM=?auth_token=0da169d5bb7cb18f9acc9ab73f660a0a14e0d96849faaded8489ee7e9200d219&build_token=WDJwS1dIOENzV00zTkdlYTk5Z2l6TTZFMzNyTFlieW9sRjNPcFlNRmtYVT0tLW04RG5sYzdMQTFHTDFXdWpNRXlIT3c9PQ==--26ebc01890940c4a7f1bd8fea00379426d537924“>Visualização</a>
+<a href=“https://shorturl.at/qjF0a“>Visualização</a>
 
 ```bash
   npm run brows
