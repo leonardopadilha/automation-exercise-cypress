@@ -23,7 +23,7 @@ describe('#Automation Exercise', () => {
 
     context('Register user', () => {
         it('Test Case 1: Register User', () => {
-            cy.fixture('newuser').then(function(newUser) {
+            cy.fixture('newUser').then(function(newUser) {
                 const userData = newUser
     
                 menu.clickOn(linkMenu.SIGNUP)
