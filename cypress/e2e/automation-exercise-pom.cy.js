@@ -16,6 +16,7 @@ const name = user.name()
 const email = user.email()
 
 describe('#Automation Exercise', () => {
+    
     beforeEach(() => {
         homePage.go('/')
         homePage.validAccessHome()
