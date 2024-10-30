@@ -2,7 +2,7 @@ name: Execucao agendada
 
 on: 
   schedule:
-    - cron: '0 21 * * 3'
+    - cron: '0 22 * * 3'
 
 jobs:
   test:
