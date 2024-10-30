@@ -1,15 +1,10 @@
-name: Testes e2e com relatorio
+name: Integração dos testes
 
-on: 
+on:
   workflow_dispatch:
 
-  push:
-    branches: ['main']
-  pull_request:
-    branches: ['main']
-
 jobs:
-  test:
+  inspection:
     runs-on: ubuntu-latest
 
     steps:
@@ -23,9 +18,23 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+  
+  execucao_terminal:
+    runs-on: ubuntu-latest
+    needs: [inspection]  
+    
+    steps:
+      - uses: actions/checkout@v4
 
-      - name: Cypress run
+      - name: executando os testes via terminal
         run: npm run terminal
+
+  relatorio:
+    runs-on: ubuntu-latest
+    needs: [execucao_terminal]
+
+    steps:
+      - uses: actions/checkout@v4
 
       - uses: actions/upload-artifact@v4
         if: ${{ !cancelled() }}
