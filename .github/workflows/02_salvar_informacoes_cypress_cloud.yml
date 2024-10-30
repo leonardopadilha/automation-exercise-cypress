@@ -1,8 +1,8 @@
-name: Deploy das informacoes no cypress cloud
+name: Salvar informacoes no cypress cloud após a execução do teste e2e com relatorio
 
 on: 
   workflow_run:
-    workflows: ['Tests e2e']
+    workflows: ['Testes e2e com relatorio']
     types:
       - completed
 

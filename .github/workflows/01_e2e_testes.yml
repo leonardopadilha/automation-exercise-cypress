@@ -1,4 +1,4 @@
-name: Tests e2e com relatorio
+name: Testes e2e com relatorio
 
 on: 
   workflow_dispatch:
