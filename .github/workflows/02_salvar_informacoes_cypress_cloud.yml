@@ -5,12 +5,7 @@ on:
     workflows: ['Testes e2e com relatorio']
     types:
       - completed
-
-  push:
-    branches: ['main']
-  pull_request:
-    branches: ['main']
-
+      
 jobs:
   test:
     runs-on: ubuntu-latest
