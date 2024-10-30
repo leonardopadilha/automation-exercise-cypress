@@ -25,7 +25,10 @@ jobs:
         run: npm install
 
       - name: Cypress run
-        run: npm run terminal
+        uses: cypress-io/github-action@v6
+        with:
+          build: npm run terminal
+          record: false
 
       - uses: actions/upload-artifact@v4
         if: ${{ !cancelled() }}
