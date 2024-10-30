@@ -1,7 +1,10 @@
-name: Tests e2e
+name: Deploy das informacoes no cypress cloud
 
 on: 
-  workflow_dispatch:
+  workflow_run:
+    workflows: ['Tests e2e']
+    types:
+      - completed
 
   push:
     branches: ['main']
@@ -27,14 +30,8 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v6
         with:
-          build: npm run terminal
+          build: npm run terminal # Salva as informações no cypress cloud
           record: false
-
-      - uses: actions/upload-artifact@v4
-        if: ${{ !cancelled() }}
-        with:
-          name: relatorio-de-testes
-          path: cypress/reports/html
 
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
