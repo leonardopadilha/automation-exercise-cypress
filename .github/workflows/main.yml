@@ -1,16 +1,12 @@
 name: Tests e2e
 
 on: 
+  workflow_dispatch:
+
   push:
     branches: ['main']
   pull_request:
     branches: ['main']
-
-  workflow_dispatch:
-    inputs:
-      spec: 
-        description: Executar testes em modo headless por spec
-        default: cypress/**
 
 jobs:
   test:
@@ -32,7 +28,7 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           build: npm run test
-          record: true
+          record: false
 
       - uses: actions/upload-artifact@v4
         if: ${{ !cancelled() }}

@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "open": "npx cypress open",
+    "terminal": "npx cypress terminal",
     "test": "npx cypress run --record",
     "brows": "browserstack-cypress run"
   },
